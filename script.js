@@ -1,6 +1,11 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
 function hasKey(key) {
+	return Object.prototype.hasOwnProperty.call(sampleObject, key);
+}
+
+const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
+
   //   write your code here
 }
 
